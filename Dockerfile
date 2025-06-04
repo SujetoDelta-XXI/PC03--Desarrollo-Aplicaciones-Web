@@ -11,4 +11,4 @@ COPY target/demo-0.0.1-SNAPSHOT.jar crud-PC03-v1.jar
 EXPOSE 8086
 
 # Comando de entrada
-ENTRYPOINT ["java", "-jar", "crud-v1.jar"]
+ENTRYPOINT ["java", "-jar", "crud-PC03-v1.jar"]
